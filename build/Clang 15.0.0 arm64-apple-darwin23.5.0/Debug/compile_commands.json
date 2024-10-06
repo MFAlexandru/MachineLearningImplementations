@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/alexandrumargarit/MachineLearningImplementations/build/Clang 15.0.0 arm64-apple-darwin23.5.0/Debug",
+  "command": "/usr/bin/clang++  -I/Users/alexandrumargarit/MachineLearningImplementations/include -isystem /opt/homebrew/include/eigen3 -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/ML.dir/src/main.cpp.o -c /Users/alexandrumargarit/MachineLearningImplementations/src/main.cpp",
+  "file": "/Users/alexandrumargarit/MachineLearningImplementations/src/main.cpp",
+  "output": "CMakeFiles/ML.dir/src/main.cpp.o"
+}
+]
