@@ -52,13 +52,10 @@ target_sources(${LOCAL_PROJECT_NAME} PRIVATE ${SOURCES} ${HEADERS})
 target_compile_definitions(${LOCAL_PROJECT_NAME} PRIVATE ${DEFINES})
 target_compile_options(${LOCAL_PROJECT_NAME} PRIVATE ${OPTIONS})
 
-# Set the path to the Eigen3 cmake directory (assuming Eigen is in external/eigen)
-set(EIGEN3_CMAKE_DIR ${CMAKE_SOURCE_DIR}/external/eigen-3.4.0/cmake)
-
-# Find Eigen using the CMake configuration files in the Eigen directory
-find_package(Eigen3 REQUIRED PATHS ${EIGEN3_CMAKE_DIR})
+add_subdirectory(${CMAKE_SOURCE_DIR}/external/eigen-3.4.0)
 
 # Link Eigen3 to your target (since Eigen is header-only, this mainly ensures Eigen3::Eigen is properly found)
 target_link_libraries(${PROJECT_NAME} Eigen3::Eigen)
+target_link_libraries(${PROJECT_NAME} m)
 
 set_target_properties(${LOCAL_PROJECT_NAME} PROPERTIES RUNTIME_OUTPUT_DIRECTORY "bin")

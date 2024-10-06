@@ -6,7 +6,7 @@
 #include "Softmax.hpp"
 #include "Perceptron.hpp"
 
-#define SIZE 10
+#define SIZE 500
 
 int main()
 {

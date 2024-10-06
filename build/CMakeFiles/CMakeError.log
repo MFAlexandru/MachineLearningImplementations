@@ -1,0 +1,102 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshorten64to32 failed with the following output:
+Change Dir: /home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f7e6b/fast && gmake[1]: Entering directory '/home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_f7e6b.dir/build.make CMakeFiles/cmTC_f7e6b.dir/build
+gmake[2]: Entering directory '/home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f7e6b.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wshorten64to32  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror   -Wshorten-64-to-32 -o CMakeFiles/cmTC_f7e6b.dir/src.cxx.o -c /home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wshorten-64-to-32'
+gmake[2]: *** [CMakeFiles/cmTC_f7e6b.dir/build.make:78: CMakeFiles/cmTC_f7e6b.dir/src.cxx.o] Error 1
+gmake[2]: Leaving directory '/home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [Makefile:127: cmTC_f7e6b/fast] Error 2
+gmake[1]: Leaving directory '/home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcpp11extensions failed with the following output:
+Change Dir: /home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2b377/fast && gmake[1]: Entering directory '/home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_2b377.dir/build.make CMakeFiles/cmTC_2b377.dir/build
+gmake[2]: Entering directory '/home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2b377.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wcpp11extensions  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Werror   -Wc++11-extensions -o CMakeFiles/cmTC_2b377.dir/src.cxx.o -c /home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wc++11-extensions'; did you mean '-fms-extensions'?
+gmake[2]: *** [CMakeFiles/cmTC_2b377.dir/build.make:78: CMakeFiles/cmTC_2b377.dir/src.cxx.o] Error 1
+gmake[2]: Leaving directory '/home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [Makefile:127: cmTC_2b377/fast] Error 2
+gmake[1]: Leaving directory '/home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b8648/fast && gmake[1]: Entering directory '/home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_b8648.dir/build.make CMakeFiles/cmTC_b8648.dir/build
+gmake[2]: Entering directory '/home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b8648.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_wd981  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror   -wd981 -o CMakeFiles/cmTC_b8648.dir/src.cxx.o -c /home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-wd981'
+gmake[2]: *** [CMakeFiles/cmTC_b8648.dir/build.make:78: CMakeFiles/cmTC_b8648.dir/src.cxx.o] Error 1
+gmake[2]: Leaving directory '/home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [Makefile:127: cmTC_b8648/fast] Error 2
+gmake[1]: Leaving directory '/home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cc7a1/fast && gmake[1]: Entering directory '/home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_cc7a1.dir/build.make CMakeFiles/cmTC_cc7a1.dir/build
+gmake[2]: Entering directory '/home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cc7a1.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_wd2304  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror   -wd2304 -o CMakeFiles/cmTC_cc7a1.dir/src.cxx.o -c /home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-wd2304'
+gmake[2]: *** [CMakeFiles/cmTC_cc7a1.dir/build.make:78: CMakeFiles/cmTC_cc7a1.dir/src.cxx.o] Error 1
+gmake[2]: Leaving directory '/home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [Makefile:127: cmTC_cc7a1/fast] Error 2
+gmake[1]: Leaving directory '/home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
+Change Dir: /home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_078e6/fast && gmake[1]: Entering directory '/home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_078e6.dir/build.make CMakeFiles/cmTC_078e6.dir/build
+gmake[2]: Entering directory '/home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_078e6.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_STRICTANSI  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror   -strict-ansi -o CMakeFiles/cmTC_078e6.dir/src.cxx.o -c /home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-strict-ansi'; did you mean '-fstrict-enums'?
+gmake[2]: *** [CMakeFiles/cmTC_078e6.dir/build.make:78: CMakeFiles/cmTC_078e6.dir/src.cxx.o] Error 1
+gmake[2]: Leaving directory '/home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [Makefile:127: cmTC_078e6/fast] Error 2
+gmake[1]: Leaving directory '/home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Qunusedarguments failed with the following output:
+Change Dir: /home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3ccf4/fast && gmake[1]: Entering directory '/home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_3ccf4.dir/build.make CMakeFiles/cmTC_3ccf4.dir/build
+gmake[2]: Entering directory '/home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3ccf4.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Qunusedarguments  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror   -Qunused-arguments -o CMakeFiles/cmTC_3ccf4.dir/src.cxx.o -c /home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Qunused-arguments'
+gmake[2]: *** [CMakeFiles/cmTC_3ccf4.dir/build.make:78: CMakeFiles/cmTC_3ccf4.dir/src.cxx.o] Error 1
+gmake[2]: Leaving directory '/home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [Makefile:127: cmTC_3ccf4/fast] Error 2
+gmake[1]: Leaving directory '/home/alex/MachineLearningImplementations/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
